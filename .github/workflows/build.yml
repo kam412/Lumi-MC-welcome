@@ -22,6 +22,11 @@ jobs:
           java-version: '25'
           cache: maven
 
+      - name: Check Java version
+        run: |
+          java -version
+          javac -version
+
       - name: Build with Maven
         run: mvn -B clean package
 
