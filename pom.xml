@@ -5,12 +5,13 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>me.lumimc</groupId>
-    <artifactId>LumimcWelcome</artifactId>
-    <version>1.0.0</version>
+    <groupId>com.lumimc</groupId>
+    <artifactId>LumiWelcome</artifactId>
+    <version>1.0</version>
 
     <properties>
-        <maven.compiler.release>25</maven.compiler.release>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -25,7 +26,7 @@
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
-            <version>26.2.build.112-stable</version>
+            <version>26.1.2-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
@@ -35,16 +36,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.14.1</version>
+                <version>3.14.0</version>
                 <configuration>
-                    <release>25</release>
+                    <release>21</release>
                 </configuration>
-            </plugin>
-
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.4.2</version>
             </plugin>
         </plugins>
     </build>
