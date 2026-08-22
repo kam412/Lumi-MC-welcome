@@ -1,0 +1,6 @@
+name: LumiWelcome
+version: 1.0
+main: com.lumimc.welcome.LumiWelcome
+api-version: '26.2'
+author: LumiMC
+description: LumiMC welcome plugin
